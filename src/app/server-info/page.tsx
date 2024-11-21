@@ -7,7 +7,7 @@ const serverInfoRoute = () => {
     <div className="min-h-screen bg-gray-900 text-white flex justify-center items-center">
     <div className="container mx-auto px-4 py-8">
       <header className="mb-12 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to the News Page</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to the News Page NIGGA</h1>
         <p className="text-xl text-gray-300">Stay updated with the latest headlines</p>
       </header>
       
