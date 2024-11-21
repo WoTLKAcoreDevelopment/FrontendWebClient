@@ -59,14 +59,9 @@ function Navbar({ className }: { className?: string }) {
                   <HoveredLink href="/channel-log">CHANNEL LOG</HoveredLink>
                 </div>
               </MenuItem>
-              <MenuItem setActive={setActive} active={active} item="SHOP">
+              <MenuItem setActive={setActive} active={active} item="SHOP" >
                 <div className="flex flex-col space-y-2 text-sm font-bold">
-                  <ProductItem
-                      title="World of Warcraft"
-                      href="/shop/world-of-warcraft"
-                      src='https://i.pinimg.com/736x/c0/09/99/c00999f27e1b935420ce6c04622f6c62.jpg'
-                      description="Look your best even when covered in Blood"
-                  />
+                  <HoveredLink href="/shop/world-of-warcraft">World of Warcraft</HoveredLink>
                 </div>
               </MenuItem>
               <MenuItem setActive={setActive} active={active} item="GAME LIST">
@@ -74,7 +69,7 @@ function Navbar({ className }: { className?: string }) {
                   <ProductItem
                       title="World of Warcraft"
                       href="/gamelist/world-of-warcraft"
-                      src='https://i.pinimg.com/736x/c0/09/99/c00999f27e1b935420ce6c04622f6c62.jpg'
+                      src='https://imgs.search.brave.com/qEKKsUfchgJbYHg4D2RkrjwBBOGlrtHR0dupBW26Zk4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2ViL1dv/V19pY29uLnN2Zy8y/MjBweC1Xb1dfaWNv/bi5zdmcucG5n'
                       description="Look your best even when covered in Blood"
                   />
                 </div>
