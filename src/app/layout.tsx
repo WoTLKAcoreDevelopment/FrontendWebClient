@@ -7,8 +7,8 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Draenor Project",
-    description: "Experience the world of Draenor",
+    title: "Echoes of Azeroth",
+    description: "Experience the world of Azeroth",
     icons: {
         icon: [
             { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
