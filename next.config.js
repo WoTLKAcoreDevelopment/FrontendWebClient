@@ -17,6 +17,10 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'imgs.search.brave.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
       }
     ],
   },
